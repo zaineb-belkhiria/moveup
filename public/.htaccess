@@ -1,0 +1,13 @@
+Options -Indexes
+
+RewriteEngine On
+
+# Base path is resolved automatically from wherever this .htaccess lives
+# (do NOT hardcode a folder name here — it breaks the moment the project
+# folder is renamed or cloned somewhere else, e.g. on a reviewer's machine).
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Everything else → front controller
+RewriteRule ^ index.php [QSA,L]

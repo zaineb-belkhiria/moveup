@@ -1,0 +1,7 @@
+config/mail.php
+public/uploads/profiles/*
+public/uploads/sessions/*
+!public/uploads/profiles/.gitkeep
+!public/uploads/sessions/.gitkeep
+.DS_Store
+Thumbs.db
