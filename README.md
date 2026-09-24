@@ -16,3 +16,29 @@ A fitness tracking web app (PHP MVC + MySQL): workouts, progression, weight, nut
 - `app/` controllers, models, views, services
 - `core/` router, view, auth, database
 - `public/` entry point, CSS, JS, assets
+## 📸 Screenshots
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/dashboard_admin1.png)
+
+### User Dashboard
+![User Dashboard](screenshots/dashboard_user.png)
+![User Dashboard 2](screenshots/dashboard_user1.png)
+
+### Exercises
+![Exercises](screenshots/exercices.png)
+
+### Gym - Add
+![Add Gym](screenshots/gym_add.png)
+
+### Gym Dashboard
+![Gym Dashboard](screenshots/gym_dashboard.png)
+
+### Admin Messages
+![Admin Messages](screenshots/messages_admin.png)
+
+### User Progression
+![User Progression](screenshots/progression_user.png)
+
+### Reviews
+![Reviews](screenshots/reviews.png)
